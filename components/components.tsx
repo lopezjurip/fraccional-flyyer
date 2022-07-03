@@ -7,7 +7,7 @@ export function BarTop({className, ...props}: React.ComponentProps<'p'>) {
       className={clsx(
         'hidden banner:block',
         'flex-0 w-full px-4 py-1',
-        'bg-indigo-600 dark:bg-white',
+        'bg-blue-600 dark:bg-white',
       )}
     >
       <p

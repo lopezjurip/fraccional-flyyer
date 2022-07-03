@@ -7,14 +7,14 @@ require('dotenv').config();
 module.exports = config({
   engine: 'react-typescript',
   key: process.env.FLYYER_KEY,
-  deck: 'official',
+  deck: 'fraccional',
 
   // Optionals
-  name: 'Flyyer Official',
-  description: 'Created with create-flyyer-app',
-  homepage: 'https://flyyer.io',
+  name: 'Fraccional Ventures',
+  description: 'Share images for https://fraccional.ventures',
+  homepage: 'https://fraccional.ventures',
   keywords: ['flyyer', 'react', 'tailwind'],
   private: false,
-  repository: 'https:/github.com/useflyyer/flyyer-official',
+  // repository: 'https:/github.com/useflyyer/flyyer-official',
   sizes: ['THUMBNAIL', 'BANNER', 'SQUARE', 'STORY'],
 });
